@@ -12,13 +12,31 @@ namespace _18JulyCustomException
 
     //    }
     //}
+
+    //Struct Ex
+    public struct Student
+    {
+        int id;
+        string name;
+        public Student(int _id,string _name)
+        {
+            //this.id = id;
+            //this.name = name;
+            id = _id;
+            name = _name;
+        }
+        public void Display()
+        {
+            Console.WriteLine($"Student ID {id} \t Student Name {name}" );
+        }
+    }
     internal class Program
     {
         //Enumeration(Enum) Example
-        public enum DayofWeek
-        {
-            Monday=1, Tuesday, Wednesday, Thursday, Friday, Saturday
-        }
+        //public enum DayofWeek
+        //{
+        //    Monday=1, Tuesday, Wednesday, Thursday, Friday, Saturday
+        //}
         static void Main(string[] args)
         {
             //try {
@@ -40,9 +58,16 @@ namespace _18JulyCustomException
             //finally { Console.WriteLine("***Bye Bye***"); }
             //Console.ReadKey();
 
-            DayofWeek today = DayofWeek.Tuesday;
-            Console.WriteLine("Day: "+today);
-            Console.WriteLine("Day Number "+(int)today);
+            //DayofWeek today = DayofWeek.Tuesday;
+            //Console.WriteLine("Day: "+today);
+            //Console.WriteLine("Day Number "+(int)today);
+            //Console.ReadKey();
+
+            //Structure Example
+            Student student = new Student(12, "Raj");
+            student.Display();
+            Student student1 = new Student(13, "Ravi");
+            student1.Display();
             Console.ReadKey();
         }
     }
