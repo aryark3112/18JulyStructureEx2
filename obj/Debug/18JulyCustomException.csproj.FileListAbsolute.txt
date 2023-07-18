@@ -1,0 +1,8 @@
+D:\18JulyCustomException\18JulyCustomException\bin\Debug\18JulyCustomException.exe.config
+D:\18JulyCustomException\18JulyCustomException\bin\Debug\18JulyCustomException.exe
+D:\18JulyCustomException\18JulyCustomException\bin\Debug\18JulyCustomException.pdb
+D:\18JulyCustomException\18JulyCustomException\obj\Debug\18JulyCustomException.csproj.AssemblyReference.cache
+D:\18JulyCustomException\18JulyCustomException\obj\Debug\18JulyCustomException.csproj.SuggestedBindingRedirects.cache
+D:\18JulyCustomException\18JulyCustomException\obj\Debug\18JulyCustomException.csproj.CoreCompileInputs.cache
+D:\18JulyCustomException\18JulyCustomException\obj\Debug\18JulyCustomException.exe
+D:\18JulyCustomException\18JulyCustomException\obj\Debug\18JulyCustomException.pdb
